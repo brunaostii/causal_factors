@@ -1,2 +1,2 @@
-# causal_factors
-Study of causal factors regarding skin lesion classification
+# SkinCancerClassification
+Master's research
