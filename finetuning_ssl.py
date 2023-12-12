@@ -244,7 +244,7 @@ if __name__ == "__main__":
     parser.add_argument("--runs", type=int, default=1, help="Run the experiment for  times")
     parser.add_argument("--copies", type=int, default=50, help="Number of image copies in test stage")
     parser.add_argument("--workers", type=int, default=8, help="Number of workers")
-    parser.add_argument("--splits_folder", type=str, default='/splits/', help="Base folder storing train, val, and test splits in csv files")
+    parser.add_argument("--splits_folder", type=str, default='./datasplits/isic2019/splits/', help="Base folder storing train, val, and test splits in csv files")
     parser.add_argument("--ft_featmap", action='store_true', help="Fine-tuning features map. Projections is the default behaviour")
     parser.add_argument("--balanced", action='store_true', help="use balanced batches")
     parser.add_argument("--debug", action='store_true', default=True, help="Init in debug mode")
